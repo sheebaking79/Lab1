@@ -1,0 +1,32 @@
+ git config --global user.name "sheebaking79"
+
+git config --global user.email "sheebaking79@gmail.com"
+
+ cd "E:\GITLOCALREPOSITARY"
+
+cd lab1
+
+git config --list
+
+git status
+
+git add HelloWorld.py
+
+git commit -m "Initial version to display text message on console"
+
+git branch
+
+git branch "bug-fix1"
+
+git checkout "bug-fix1"
+
+git merge "bug-fix1"
+
+git remote add origin https://gitHub.com/kweetecktanichat/Lab1.git
+
+git push --set-upstream origin master
+
+git push -u origin
+
+git tag -a v1.0 -m "Initial release v1.0"
+
